@@ -1,0 +1,1004 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Rohan | Independent Third-Party PayPal Account Support (US)</title>
+<meta name="description" content="Rohan provides independent, third-party technical support to US customers navigating PayPal account access, verification, and payment issues. Not affiliated with, endorsed by, or sponsored by PayPal.">
+<meta name="keywords" content="independent PayPal help, PayPal account support, PayPal login help, third-party technical support, PayPal verification help, PayPal troubleshooting USA">
+<meta name="robots" content="index, follow">
+<meta name="author" content="Rohan">
+<link rel="canonical" href="https://www.rohanbusiness.com/">
+
+<!-- Open Graph -->
+<meta property="og:type" content="website">
+<meta property="og:title" content="Rohan | Independent Third-Party PayPal Account Support">
+<meta property="og:description" content="Independent guidance for PayPal account access, verification, and payment questions. Rohan is not affiliated with PayPal.">
+<meta property="og:url" content="https://www.rohanbusiness.com/">
+<meta property="og:locale" content="en_US">
+
+<!-- Twitter -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Rohan | Independent PayPal Account Support">
+<meta name="twitter:description" content="Independent, third-party technical support for PayPal account issues. Not affiliated with PayPal.">
+
+<!-- Structured Data -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ProfessionalService",
+  "name": "Rohan",
+  "description": "Independent third-party technical support provider assisting US customers with PayPal-related account, login, verification, and payment questions. Not affiliated with, endorsed by, or sponsored by PayPal.",
+  "areaServed": "US",
+  "url": "https://www.rohanbusiness.com/",
+  "telephone": "+1-656-556-2260",
+  "disambiguatingDescription": "Rohan is an independent company and is not affiliated with, endorsed by, sponsored by, or in any way officially connected with PayPal, Inc."
+}
+</script>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;0,9..144,700;1,9..144,500&family=Inter:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+
+<style>
+  /* ============ TOKENS ============ */
+  :root{
+    --ink:#1C2B27;
+    --ink-2:#24352F;
+    --ink-3:#2C3F38;
+    --paper:#F6F3EA;
+    --paper-2:#EEE8D9;
+    --brass:#B8873B;
+    --brass-2:#D9A857;
+    --slate:#4B6B6E;
+    --line:#D9D0BC;
+    --line-dark:#3B4E46;
+    --text:#20302B;
+    --text-soft:#5B685F;
+    --paper-soft:#8B9990;
+    --stamp:#8C3B2E;
+    --radius:2px;
+    --shadow-lift: 0 30px 60px -25px rgba(20,28,25,0.35);
+    --maxw:1180px;
+  }
+
+  *{box-sizing:border-box;}
+  :root{ --top-offset:150px; }
+  html{scroll-behavior:smooth; scroll-padding-top:var(--top-offset);}
+  body{
+    margin:0;
+    padding-top:var(--top-offset);
+    background:var(--paper);
+    color:var(--text);
+    font-family:'Inter',sans-serif;
+    font-size:16px;
+    line-height:1.6;
+    -webkit-font-smoothing:antialiased;
+  }
+  img{max-width:100%;display:block;}
+  a{color:inherit;text-decoration:none;}
+  h1,h2,h3,h4{
+    font-family:'Fraunces',serif;
+    font-weight:600;
+    line-height:1.12;
+    margin:0 0 .5em;
+    letter-spacing:-0.01em;
+  }
+  p{margin:0 0 1em;}
+  .eyebrow{
+    font-family:'IBM Plex Mono',monospace;
+    font-size:12.5px;
+    letter-spacing:.14em;
+    text-transform:uppercase;
+    color:var(--brass);
+    display:flex;
+    align-items:center;
+    gap:10px;
+    margin-bottom:16px;
+  }
+  .eyebrow::before{
+    content:"";
+    width:22px;height:1px;
+    background:var(--brass);
+    display:inline-block;
+  }
+  .wrap{max-width:var(--maxw);margin:0 auto;padding:0 28px;}
+  section{padding:104px 0;}
+  @media(max-width:720px){ section{padding:72px 0;} }
+
+  .btn{
+    display:inline-flex;align-items:center;gap:10px;
+    font-family:'Inter',sans-serif;font-weight:600;font-size:14.5px;
+    padding:15px 26px;
+    border-radius:var(--radius);
+    border:1px solid transparent;
+    cursor:pointer;
+    transition:transform .18s ease, box-shadow .18s ease, background .18s ease, color .18s ease;
+    letter-spacing:.01em;
+  }
+  .btn-brass{ background:var(--brass); color:var(--ink); }
+  .btn-brass:hover{ background:var(--brass-2); transform:translateY(-2px); }
+  .btn-ghost{ background:transparent; color:var(--paper); border-color:rgba(246,243,234,.35); }
+  .btn-ghost:hover{ border-color:var(--paper); transform:translateY(-2px); }
+  .btn-outline-dark{ background:transparent; color:var(--ink); border-color:var(--ink); }
+  .btn-outline-dark:hover{ background:var(--ink); color:var(--paper); }
+  .btn-block{width:100%;justify-content:center;}
+  .btn-call{
+    background:var(--stamp); color:var(--paper); border-color:var(--stamp);
+  }
+  .btn-call:hover{ background:#a3452f; transform:translateY(-2px); }
+  .btn-call .phone-ic{flex:none;}
+
+  /* Mobile sticky call bar */
+  .sticky-call{
+    display:none;
+    position:fixed; left:0; right:0; bottom:0; z-index:110;
+    background:var(--stamp); color:var(--paper);
+    padding:14px 20px;
+    align-items:center; justify-content:center; gap:10px;
+    font-family:'Inter',sans-serif; font-weight:600; font-size:14.5px;
+    box-shadow:0 -8px 24px rgba(0,0,0,.18);
+  }
+  @media(max-width:720px){
+    .sticky-call{ display:flex; }
+    body{ padding-bottom:58px; }
+  }
+
+  /* ============ HEADER ============ */
+  header{
+    position:fixed; top:0; left:0; right:0; z-index:100;
+    background:rgba(28,43,39,.92);
+    backdrop-filter: blur(10px);
+    border-bottom:1px solid rgba(246,243,234,.08);
+    display:flex; flex-direction:column;
+  }
+  .nav{
+    display:flex;align-items:center;justify-content:space-between;
+    padding:16px 28px; max-width:var(--maxw); margin:0 auto;
+  }
+  .logo{
+    font-family:'Fraunces',serif;font-weight:600;font-size:20px;color:var(--paper);
+    line-height:1;
+  }
+  .nav-links{display:flex;align-items:center;gap:30px;}
+  .nav-links a{
+    font-size:14px;color:rgba(246,243,234,.78);font-weight:500;
+    transition:color .15s ease;
+  }
+  .nav-links a:hover{color:var(--brass-2);}
+  .nav-cta{display:flex;align-items:center;gap:18px;}
+  .nav-cta .btn-ghost{margin-left:24px;}
+  .burger{display:none;background:none;border:0;cursor:pointer;padding:6px;}
+  .burger span{display:block;width:22px;height:2px;background:var(--paper);margin:5px 0;}
+
+  @media(max-width:880px){
+    .nav-links{
+      position:fixed;top:var(--top-offset);left:0;right:0;
+      background:var(--ink);
+      flex-direction:column;align-items:flex-start;
+      padding:22px 28px 30px;
+      gap:18px;
+      border-bottom:1px solid rgba(246,243,234,.08);
+      transform:translateY(-130%);
+      transition:transform .25s ease;
+    }
+    .nav-links.open{transform:translateY(0);}
+    .burger{display:block;}
+    .nav-cta .btn-ghost{display:none;}
+  }
+
+  /* ============ HERO ============ */
+  .hero{
+    background:
+      radial-gradient(1100px 500px at 85% -10%, rgba(184,135,59,.16), transparent 60%),
+      linear-gradient(180deg,var(--ink),var(--ink-2));
+    color:var(--paper);
+    padding:64px 0 110px;
+    position:relative;
+    overflow:hidden;
+  }
+  .hero-grid{
+    display:grid;grid-template-columns:1.05fr .95fr;gap:64px;align-items:center;
+  }
+  @media(max-width:960px){ .hero-grid{grid-template-columns:1fr;gap:56px;} }
+
+  .hero h1{font-size:clamp(34px,4.6vw,54px); color:var(--paper);}
+  .hero h1 em{
+    font-style:italic; color:var(--brass-2); font-weight:500;
+  }
+  .hero-sub{
+    font-size:17px;color:rgba(246,243,234,.75);max-width:520px;margin-bottom:32px;
+  }
+  .hero-actions{display:flex;gap:16px;flex-wrap:wrap;margin-bottom:34px;}
+  .hero-note{
+    display:flex;gap:12px;align-items:flex-start;
+    font-size:13px;color:rgba(246,243,234,.62);
+    border-left:2px solid var(--brass);padding-left:14px;max-width:480px;
+  }
+
+  /* Signature element: the stamped case ticket */
+  .ticket{
+    background:var(--paper);
+    color:var(--text);
+    border-radius:3px;
+    padding:34px 32px 30px;
+    position:relative;
+    transform:rotate(1.4deg);
+    box-shadow:var(--shadow-lift);
+    border:1px solid var(--line);
+  }
+  .ticket::before, .ticket::after{
+    content:"";
+    position:absolute; top:50%; width:26px;height:26px;
+    background:var(--ink); border-radius:50%;
+    transform:translateY(-50%);
+  }
+  .ticket::before{left:-13px;}
+  .ticket::after{right:-13px;}
+  .ticket-top{
+    display:flex;justify-content:space-between;align-items:flex-start;
+    border-bottom:1px dashed var(--line);
+    padding-bottom:16px;margin-bottom:18px;
+  }
+  .ticket-ref{
+    font-family:'IBM Plex Mono',monospace;font-size:12px;color:var(--text-soft);
+    letter-spacing:.05em;
+  }
+  .ticket-ref strong{display:block;color:var(--text);font-size:14px;margin-top:2px;}
+  .stamp{
+    font-family:'IBM Plex Mono',monospace;
+    font-size:10.5px; font-weight:600; letter-spacing:.08em;
+    color:var(--stamp);
+    border:1.5px solid var(--stamp);
+    padding:6px 10px;
+    border-radius:3px;
+    transform:rotate(-6deg);
+    text-transform:uppercase;
+    white-space:nowrap;
+  }
+  .ticket-title{font-size:20px;margin-bottom:14px;}
+  .ticket-list{list-style:none;margin:0 0 20px;padding:0;display:flex;flex-direction:column;gap:10px;}
+  .ticket-list li{
+    display:flex;align-items:center;gap:10px;font-size:14px;color:var(--text);
+  }
+  .ticket-list li::before{
+    content:"✓";
+    width:19px;height:19px;flex:none;
+    background:var(--slate);color:var(--paper);
+    border-radius:50%;
+    display:flex;align-items:center;justify-content:center;
+    font-size:11px;
+  }
+  .ticket-foot{
+    display:flex;justify-content:space-between;align-items:center;
+    font-family:'IBM Plex Mono',monospace;font-size:11.5px;color:var(--text-soft);
+    padding-top:16px;border-top:1px dashed var(--line);
+  }
+  .ticket-foot b{color:var(--slate);}
+
+  /* trust bar */
+  .trustbar{
+    border-top:1px solid rgba(246,243,234,.1);
+    margin-top:58px;padding-top:28px;
+    display:flex;gap:40px;flex-wrap:wrap;
+  }
+  .trustbar div{font-size:12.5px;color:rgba(246,243,234,.55);
+    font-family:'IBM Plex Mono',monospace;letter-spacing:.04em;}
+
+  /* ============ DISCLAIMER STRIP ============ */
+  .brandbar{
+    text-align:center;
+    padding:14px 0 6px;
+    border-bottom:1px solid rgba(246,243,234,.06);
+  }
+  .brandbar .logo{display:inline-block;}
+
+  .topphone{
+    background:var(--ink); color:var(--paper);
+    padding:9px 0; font-size:13px; font-weight:600; text-align:center;
+    letter-spacing:.01em;
+    border-bottom:1px solid rgba(246,243,234,.1);
+  }
+  .topphone .wrap{display:flex;justify-content:center;align-items:center;gap:8px;flex-wrap:wrap;}
+  .topphone a{color:var(--brass-2);text-decoration:none;display:inline-flex;align-items:center;gap:6px;}
+  .topphone a:hover{text-decoration:underline;}
+  .topphone .phone-ic{flex:none;}
+
+  .strip{
+    background:var(--brass);color:var(--ink);
+    padding:13px 0;font-size:13.5px;font-weight:600;text-align:center;
+    letter-spacing:.01em;
+  }
+  .strip .wrap{display:flex;justify-content:center;align-items:center;gap:8px;flex-wrap:wrap;}
+
+  /* ============ ABOUT ============ */
+  .about{background:var(--paper);}
+  .about-grid{display:grid;grid-template-columns:.9fr 1.1fr;gap:70px;align-items:start;}
+  @media(max-width:880px){.about-grid{grid-template-columns:1fr;gap:40px;}}
+  .about h2{font-size:clamp(28px,3.4vw,40px);}
+  .about-lede{font-size:18px;color:var(--text);max-width:480px;}
+  .about-points{display:grid;grid-template-columns:1fr 1fr;gap:26px 30px;margin-top:8px;}
+  @media(max-width:520px){.about-points{grid-template-columns:1fr;}}
+  .about-point{border-top:1px solid var(--line);padding-top:16px;}
+  .about-point h4{font-size:15.5px;margin-bottom:6px;font-family:'Inter';font-weight:600;}
+  .about-point p{font-size:14.5px;color:var(--text-soft);margin:0;}
+
+  /* ============ SERVICES ============ */
+  .services{background:var(--paper-2);}
+  .svc-head{display:flex;justify-content:space-between;align-items:flex-end;gap:30px;margin-bottom:50px;flex-wrap:wrap;}
+  .svc-head h2{font-size:clamp(28px,3.4vw,40px);max-width:560px;margin:0;}
+  .svc-head p{max-width:360px;color:var(--text-soft);font-size:15px;margin:0;}
+  .svc-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:1px;background:var(--line);border:1px solid var(--line);}
+  @media(max-width:880px){.svc-grid{grid-template-columns:1fr 1fr;}}
+  @media(max-width:560px){.svc-grid{grid-template-columns:1fr;}}
+  .svc-card{
+    background:var(--paper);padding:34px 28px;transition:background .2s ease;
+  }
+  .svc-card:hover{background:#fff;}
+  .svc-code{font-family:'IBM Plex Mono',monospace;font-size:12px;color:var(--brass);letter-spacing:.06em;margin-bottom:16px;display:block;}
+  .svc-card h3{font-size:19px;margin-bottom:10px;}
+  .svc-card p{font-size:14.5px;color:var(--text-soft);margin:0;}
+
+  /* ============ WHY CHOOSE ============ */
+  .why{background:var(--ink);color:var(--paper);}
+  .why-grid{display:grid;grid-template-columns:.85fr 1.15fr;gap:60px;}
+  @media(max-width:880px){.why-grid{grid-template-columns:1fr;gap:40px;}}
+  .why h2{color:var(--paper);font-size:clamp(28px,3.4vw,40px);}
+  .why-sub{color:rgba(246,243,234,.65);font-size:15.5px;max-width:400px;}
+  .why-list{display:grid;grid-template-columns:1fr 1fr;gap:1px;background:rgba(246,243,234,.1);border:1px solid rgba(246,243,234,.1);}
+  @media(max-width:560px){.why-list{grid-template-columns:1fr;}}
+  .why-item{background:var(--ink-2);padding:28px 26px;}
+  .why-item .num{font-family:'IBM Plex Mono',monospace;color:var(--brass-2);font-size:12px;letter-spacing:.08em;margin-bottom:12px;display:block;}
+  .why-item h4{font-family:'Inter';font-weight:600;font-size:15.5px;margin-bottom:8px;color:var(--paper);}
+  .why-item p{font-size:13.8px;color:rgba(246,243,234,.6);margin:0;}
+
+  /* ============ HOW IT WORKS ============ */
+  .how{background:var(--paper);}
+  .how-head{max-width:560px;margin-bottom:56px;}
+  .how-head h2{font-size:clamp(28px,3.4vw,40px);}
+  .steps{display:grid;grid-template-columns:repeat(4,1fr);gap:30px;position:relative;}
+  @media(max-width:880px){.steps{grid-template-columns:1fr 1fr;}}
+  @media(max-width:560px){.steps{grid-template-columns:1fr;}}
+  .step{position:relative;padding-top:22px;}
+  .step::before{
+    content:"";position:absolute;top:0;left:0;width:38px;height:2px;background:var(--brass);
+  }
+  .step .step-n{
+    font-family:'Fraunces',serif;font-size:34px;color:var(--paper-soft);
+    display:block;margin-bottom:10px;
+  }
+  .step h4{font-size:17px;margin-bottom:8px;}
+  .step p{font-size:14px;color:var(--text-soft);margin:0;}
+
+  /* ============ FAQ ============ */
+  .faq{background:var(--paper-2);}
+  .faq-grid{display:grid;grid-template-columns:.75fr 1.25fr;gap:60px;}
+  @media(max-width:880px){.faq-grid{grid-template-columns:1fr;gap:32px;}}
+  .faq h2{font-size:clamp(28px,3.4vw,40px);}
+  .faq-list{border-top:1px solid var(--line);}
+  .faq-item{border-bottom:1px solid var(--line);}
+  .faq-q{
+    width:100%;text-align:left;background:none;border:0;cursor:pointer;
+    padding:22px 4px;display:flex;justify-content:space-between;align-items:center;gap:20px;
+    font-family:'Inter';font-weight:600;font-size:15.5px;color:var(--text);
+  }
+  .faq-q .plus{
+    font-family:'IBM Plex Mono',monospace;color:var(--brass);font-size:18px;flex:none;
+    transition:transform .2s ease;
+  }
+  .faq-item.open .plus{transform:rotate(45deg);}
+  .faq-a{max-height:0;overflow:hidden;transition:max-height .28s ease;}
+  .faq-a p{font-size:14.5px;color:var(--text-soft);padding:0 4px 22px;max-width:600px;margin:0;}
+
+  /* ============ CONTACT ============ */
+  .contact{background:var(--ink);color:var(--paper);}
+  .contact-grid{display:grid;grid-template-columns:.8fr 1.2fr;gap:60px;}
+  @media(max-width:880px){.contact-grid{grid-template-columns:1fr;gap:40px;}}
+  .contact h2{color:var(--paper);font-size:clamp(28px,3.4vw,40px);}
+  .contact-sub{color:rgba(246,243,234,.62);font-size:15px;max-width:380px;}
+  .contact-meta{margin-top:30px;display:flex;flex-direction:column;gap:14px;}
+  .contact-meta div{font-size:14px;color:rgba(246,243,234,.75);}
+  .contact-meta b{display:block;font-family:'IBM Plex Mono',monospace;font-size:11px;letter-spacing:.08em;color:var(--brass-2);margin-bottom:4px;text-transform:uppercase;}
+
+  .form-card{background:var(--paper);color:var(--text);padding:36px;border-radius:3px;box-shadow:var(--shadow-lift);}
+  .form-row{display:grid;grid-template-columns:1fr 1fr;gap:18px;}
+  @media(max-width:520px){.form-row{grid-template-columns:1fr;}}
+  .field{margin-bottom:18px;}
+  .field label{display:block;font-size:12.5px;font-weight:600;margin-bottom:7px;letter-spacing:.02em;}
+  .field input, .field select, .field textarea{
+    width:100%;padding:13px 14px;border:1px solid var(--line);border-radius:2px;
+    font-family:'Inter';font-size:14.5px;background:#fff;color:var(--text);
+    transition:border-color .15s ease;
+  }
+  .field input:focus, .field select:focus, .field textarea:focus{
+    outline:none;border-color:var(--brass);
+  }
+  .field textarea{resize:vertical;min-height:110px;}
+  .field-check{display:flex;gap:10px;align-items:flex-start;font-size:13px;color:var(--text-soft);margin-bottom:22px;}
+  .field-check input{width:16px;height:16px;margin-top:2px;flex:none;}
+  .form-msg{font-size:13.5px;margin-top:14px;display:none;padding:12px 14px;border-radius:2px;}
+  .form-msg.show{display:block;}
+  .form-msg.success{background:#EAF3EA;color:#2E5E33;border:1px solid #B9DAB9;}
+
+  /* ============ LEGAL ============ */
+  .legal{background:var(--paper);}
+  .legal-head{max-width:640px;margin-bottom:46px;}
+  .legal-head h2{font-size:clamp(28px,3.4vw,40px);}
+  .legal-tabs{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:0;border-bottom:1px solid var(--line);}
+  .legal-tab{
+    background:none;border:0;cursor:pointer;font-family:'IBM Plex Mono',monospace;
+    font-size:12.5px;letter-spacing:.05em;text-transform:uppercase;
+    padding:14px 18px;color:var(--text-soft);border-bottom:2px solid transparent;margin-bottom:-1px;
+  }
+  .legal-tab.active{color:var(--text);border-bottom-color:var(--brass);}
+  .legal-panel{display:none;padding:34px 2px 6px;max-width:760px;}
+  .legal-panel.active{display:block;}
+  .legal-panel h3{font-size:18px;margin-top:26px;}
+  .legal-panel h3:first-child{margin-top:0;}
+  .legal-panel p, .legal-panel li{font-size:14.5px;color:var(--text-soft);}
+  .legal-panel ul{padding-left:20px;}
+  .legal-updated{font-family:'IBM Plex Mono',monospace;font-size:11.5px;color:var(--brass);letter-spacing:.05em;text-transform:uppercase;margin-bottom:20px;display:inline-block;}
+
+  /* ============ FOOTER ============ */
+  footer{background:var(--ink-2);color:rgba(246,243,234,.6);padding:64px 0 30px;border-top:1px solid rgba(246,243,234,.08);}
+  .foot-grid{display:grid;grid-template-columns:1.4fr 1fr 1fr 1fr;gap:40px;margin-bottom:50px;}
+  @media(max-width:820px){.foot-grid{grid-template-columns:1fr 1fr;}}
+  @media(max-width:520px){.foot-grid{grid-template-columns:1fr;}}
+  .foot-brand .logo{margin-bottom:14px;}
+  .foot-brand p{font-size:13.5px;max-width:280px;color:rgba(246,243,234,.5);}
+  .foot-col h5{font-family:'IBM Plex Mono',monospace;font-size:11.5px;letter-spacing:.08em;text-transform:uppercase;color:var(--brass-2);margin-bottom:16px;}
+  .foot-col ul{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:10px;}
+  .foot-col a{font-size:13.8px;color:rgba(246,243,234,.65);transition:color .15s ease;}
+  .foot-col a:hover{color:var(--paper);}
+  .foot-disclaimer{
+    border-top:1px solid rgba(246,243,234,.1);border-bottom:1px solid rgba(246,243,234,.1);
+    padding:22px 0;font-size:12.5px;color:rgba(246,243,234,.5);line-height:1.7;margin-bottom:24px;
+  }
+  .foot-bottom{display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:12px;font-size:12.5px;color:rgba(246,243,234,.45);}
+
+  .sr-only{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0,0,0,0);}
+
+  @media (prefers-reduced-motion: reduce){
+    html{scroll-behavior:auto;}
+    *{transition:none !important; animation:none !important;}
+  }
+</style>
+</head>
+<body>
+
+<a href="tel:6565562260" class="sticky-call">
+  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M6.6 10.8c1.4 2.8 3.8 5.1 6.6 6.6l2.2-2.2c.3-.3.7-.4 1.1-.2 1.2.4 2.5.6 3.8.6.6 0 1 .4 1 1V20.5c0 .6-.4 1-1 1C10.6 21.5 2.5 13.4 2.5 3.7c0-.6.4-1 1-1H7c.6 0 1 .4 1 1 0 1.3.2 2.6.6 3.8.1.4 0 .8-.2 1.1L6.6 10.8Z" fill="currentColor"/></svg>
+  Call Now: (656) 556-2260
+</a>
+
+<header id="siteHeader">
+  <div class="brandbar">
+    <a href="#top" class="logo">Rohan</a>
+  </div>
+  <div class="topphone">
+    <div class="wrap">
+      <a href="tel:6565562260">
+        <svg width="13" height="13" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M6.6 10.8c1.4 2.8 3.8 5.1 6.6 6.6l2.2-2.2c.3-.3.7-.4 1.1-.2 1.2.4 2.5.6 3.8.6.6 0 1 .4 1 1V20.5c0 .6-.4 1-1 1C10.6 21.5 2.5 13.4 2.5 3.7c0-.6.4-1 1-1H7c.6 0 1 .4 1 1 0 1.3.2 2.6.6 3.8.1.4 0 .8-.2 1.1L6.6 10.8Z" fill="currentColor"/></svg>
+        Call Now: (656) 556-2260
+      </a>
+    </div>
+  </div>
+  <nav class="nav">
+    <div class="nav-links" id="navLinks">
+      <a href="#about">About</a>
+      <a href="#services">Services</a>
+      <a href="#how">How It Works</a>
+      <a href="#faq">FAQ</a>
+      <a href="#legal">Policies</a>
+      <a href="#contact">Contact</a>
+    </div>
+    <div class="nav-cta">
+      <a href="#contact" class="btn btn-ghost">Get Help</a>
+      <button class="burger" id="burgerBtn" aria-label="Toggle menu" aria-expanded="false" aria-controls="navLinks">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+</header>
+
+<main id="top">
+
+  <!-- ============ HERO ============ -->
+  <section class="hero" id="hero">
+    <div class="wrap hero-grid">
+      <div>
+        <p class="eyebrow">Independent PayPal-Related Support · United States</p>
+        <h1>Stuck on a PayPal issue?<br>Get <em>independent</em>, plain-English help.</h1>
+        <p class="hero-sub">Rohan is a standalone technical support provider. We help everyday PayPal users understand account access problems, verification steps, and payment questions — and point you to the right official channel when only PayPal can act.</p>
+        <div class="hero-actions">
+          <a href="#contact" class="btn btn-brass">Start a Free Case Review</a>
+          <a href="tel:6565562260" class="btn btn-call">
+            <svg class="phone-ic" width="14" height="14" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M6.6 10.8c1.4 2.8 3.8 5.1 6.6 6.6l2.2-2.2c.3-.3.7-.4 1.1-.2 1.2.4 2.5.6 3.8.6.6 0 1 .4 1 1V20.5c0 .6-.4 1-1 1C10.6 21.5 2.5 13.4 2.5 3.7c0-.6.4-1 1-1H7c.6 0 1 .4 1 1 0 1.3.2 2.6.6 3.8.1.4 0 .8-.2 1.1L6.6 10.8Z" fill="currentColor"/></svg>
+            Call Now: (656) 556-2260
+          </a>
+          <a href="#how" class="btn btn-ghost">See How It Works</a>
+        </div>
+        <div class="hero-note">
+          Rohan is an independent company, not part of PayPal, Inc. We never ask for your PayPal password, and we cannot make changes inside your PayPal account on your behalf.
+        </div>
+        <div class="trustbar">
+          <div>US-based support</div>
+          <div>No password requests, ever</div>
+          <div>Clear, upfront pricing</div>
+        </div>
+      </div>
+
+      <div>
+        <div class="ticket">
+          <span class="stamp">Independent · Unaffiliated</span>
+          <div class="ticket-top">
+            <div class="ticket-ref">Case Intake<strong>REF: RB-24681</strong></div>
+          </div>
+          <h3 class="ticket-title">What we can help you work through</h3>
+          <ul class="ticket-list">
+            <li>Locked or limited account access</li>
+            <li>Confusing verification requests</li>
+            <li>Understanding a payment or hold</li>
+            <li>Navigating a dispute or case status</li>
+          </ul>
+          <div class="ticket-foot">
+            <span>Status: <b>Open for review</b></span>
+            <span>Reply time: ~1 business day</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ ABOUT ============ -->
+  <section class="about" id="about">
+    <div class="wrap about-grid">
+      <div>
+        <p class="eyebrow">About Rohan</p>
+        <h2>An independent guide, not a gatekeeper.</h2>
+      </div>
+      <div>
+        <p class="about-lede">We started Rohan because PayPal's own help resources can feel like a maze when you're mid-problem — locked out, unsure why a payment is on hold, or staring down a verification request you don't understand. We're a separate, independently owned support service that helps you make sense of it, in plain language, without the jargon.</p>
+        <p>We are not PayPal. We don't work for PayPal, represent PayPal, or have any special access to PayPal's systems. What we do have is experience walking everyday customers through the same categories of issues, explaining what's likely happening, what PayPal typically requires, and what to do next.</p>
+        <div class="about-points">
+          <div class="about-point">
+            <h4>Fully independent</h4>
+            <p>A separate business entity with no affiliation, partnership, or contractual relationship with PayPal, Inc.</p>
+          </div>
+          <div class="about-point">
+            <h4>Educational by design</h4>
+            <p>We explain processes and options. Final account decisions always remain with PayPal.</p>
+          </div>
+          <div class="about-point">
+            <h4>Privacy-first</h4>
+            <p>We never request your PayPal password or ask you to share one-time login codes.</p>
+          </div>
+          <div class="about-point">
+            <h4>US-based team</h4>
+            <p>Support built around US business hours and US PayPal account conventions.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ SERVICES ============ -->
+  <section class="services" id="services">
+    <div class="wrap">
+      <div class="svc-head">
+        <h2>Support built around the moment you're actually stuck.</h2>
+        <p>Every case gets a reference number and a real review — not a canned script.</p>
+      </div>
+      <div class="svc-grid">
+        <div class="svc-card">
+          <span class="svc-code">RB-101</span>
+          <h3>Account Access &amp; Login Issues</h3>
+          <p>Guidance when you're locked out, seeing an unfamiliar error, or unsure why access was limited.</p>
+        </div>
+        <div class="svc-card">
+          <span class="svc-code">RB-102</span>
+          <h3>Payment &amp; Transaction Questions</h3>
+          <p>Help understanding a pending payment, a hold, a refund status, or an unexpected charge.</p>
+          </div>
+        <div class="svc-card">
+          <span class="svc-code">RB-103</span>
+          <h3>Security &amp; Suspicious Activity</h3>
+          <p>Walkthroughs for reviewing account activity and understanding recommended next steps.</p>
+        </div>
+        <div class="svc-card">
+          <span class="svc-code">RB-104</span>
+          <h3>Dispute &amp; Case Navigation</h3>
+          <p>Plain-English explanations of how disputes typically progress and what documentation helps.</p>
+        </div>
+        <div class="svc-card">
+          <span class="svc-code">RB-105</span>
+          <h3>Verification Walkthroughs</h3>
+          <p>Step-by-step orientation for identity or business verification requests.</p>
+        </div>
+        <div class="svc-card">
+          <span class="svc-code">RB-106</span>
+          <h3>General Troubleshooting</h3>
+          <p>Not sure which category fits? Describe the issue and we'll point you in the right direction.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ WHY CHOOSE US ============ -->
+  <section class="why" id="why">
+    <div class="wrap why-grid">
+      <div>
+        <p class="eyebrow">Why Choose Us</p>
+        <h2>Straightforward help, honestly labeled.</h2>
+        <p class="why-sub">No inflated promises. No pretending to be PayPal. Just clear, independent support from people who explain their reasoning.</p>
+      </div>
+      <div class="why-list">
+        <div class="why-item">
+          <span class="num">01</span>
+          <h4>Transparent from the start</h4>
+          <p>Every interaction opens with who we are: independent, unaffiliated, and upfront about it.</p>
+        </div>
+        <div class="why-item">
+          <span class="num">02</span>
+          <h4>No password requests</h4>
+          <p>We never ask for your PayPal password, security codes, or remote control of your device to log in for you.</p>
+        </div>
+        <div class="why-item">
+          <span class="num">03</span>
+          <h4>Realistic expectations</h4>
+          <p>We won't promise outcomes only PayPal can decide. We'll tell you honestly what's likely and why.</p>
+        </div>
+        <div class="why-item">
+          <span class="num">04</span>
+          <h4>Upfront pricing</h4>
+          <p>You'll see the cost of a session before you commit to anything — no surprise charges.</p>
+        </div>
+        <div class="why-item">
+          <span class="num">05</span>
+          <h4>Documented cases</h4>
+          <p>Every case gets a reference number and written notes so you always know where things stand.</p>
+        </div>
+        <div class="why-item">
+          <span class="num">06</span>
+          <h4>US support hours</h4>
+          <p>Reach a real person during US business hours, with response times we actually stand behind.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ HOW IT WORKS ============ -->
+  <section class="how" id="how">
+    <div class="wrap">
+      <div class="how-head">
+        <p class="eyebrow">How It Works</p>
+        <h2>Four steps, start to finish.</h2>
+      </div>
+      <div class="steps">
+        <div class="step">
+          <span class="step-n">01</span>
+          <h4>Tell us what's happening</h4>
+          <p>Submit the form below with a short description of your PayPal-related issue.</p>
+        </div>
+        <div class="step">
+          <span class="step-n">02</span>
+          <h4>Free initial review</h4>
+          <p>We open a case reference and review whether we're a good fit to help.</p>
+        </div>
+        <div class="step">
+          <span class="step-n">03</span>
+          <h4>Guided walkthrough</h4>
+          <p>We explain the likely cause and walk you through next steps in plain language.</p>
+        </div>
+        <div class="step">
+          <span class="step-n">04</span>
+          <h4>Resolve or refer</h4>
+          <p>If the issue requires PayPal directly, we tell you exactly where and how to escalate it.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ FAQ ============ -->
+  <section class="faq" id="faq">
+    <div class="wrap faq-grid">
+      <div>
+        <p class="eyebrow">FAQ</p>
+        <h2>Common questions.</h2>
+      </div>
+      <div class="faq-list" id="faqList">
+        <div class="faq-item open">
+          <button class="faq-q" aria-expanded="true">Are you affiliated with PayPal?<span class="plus">+</span></button>
+          <div class="faq-a" style="max-height:200px;"><p>No. Rohan is an independently owned company with no affiliation, partnership, sponsorship, or endorsement relationship with PayPal, Inc. We are a third-party support service only.</p></div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-q" aria-expanded="false">Can you guarantee my issue will be resolved?<span class="plus">+</span></button>
+          <div class="faq-a"><p>No. Decisions about individual PayPal accounts are made solely by PayPal. We provide guidance, explanation, and a clear next step — we cannot guarantee any specific outcome inside your account.</p></div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-q" aria-expanded="false">Will you ask for my PayPal password?<span class="plus">+</span></button>
+          <div class="faq-a"><p>Never. We do not ask for your PayPal password, two-factor codes, or remote access to log into your account on your behalf. Treat any request like that as a red flag.</p></div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-q" aria-expanded="false">What does a session cost?</button>
+          <div class="faq-a"><p>Pricing is shown in full before you commit to anything, following an initial free case review. There are no hidden or recurring charges.</p></div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-q" aria-expanded="false">How quickly will I hear back?</button>
+          <div class="faq-a"><p>Most case reviews receive a response within one US business day. Response times may vary during high-volume periods.</p></div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-q" aria-expanded="false">Where should I go for account-specific decisions?</button>
+          <div class="faq-a"><p>For anything only PayPal can act on — reversing a decision, releasing a hold, or changing account status — you'll need to contact PayPal directly through their official site or app. We'll tell you clearly when that's the case.</p></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ CONTACT ============ -->
+  <section class="contact" id="contact">
+    <div class="wrap contact-grid">
+      <div>
+        <p class="eyebrow">Contact</p>
+        <h2>Open a free case review.</h2>
+        <p class="contact-sub">Tell us what's going on. We'll reply with next steps — no obligation, no password required.</p>
+        <div class="contact-meta">
+          <div><b>Phone</b><a href="tel:6565562260" style="color:inherit;">(656) 556-2260</a></div>
+          <div><b>Email</b>support@rohanbusiness.example</div>
+          <div><b>Hours</b>Mon–Fri, 8am–7pm ET</div>
+          <div><b>Service Area</b>United States</div>
+        </div>
+        <a href="tel:6565562260" class="btn btn-call" style="margin-top:28px;">
+          <svg class="phone-ic" width="14" height="14" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M6.6 10.8c1.4 2.8 3.8 5.1 6.6 6.6l2.2-2.2c.3-.3.7-.4 1.1-.2 1.2.4 2.5.6 3.8.6.6 0 1 .4 1 1V20.5c0 .6-.4 1-1 1C10.6 21.5 2.5 13.4 2.5 3.7c0-.6.4-1 1-1H7c.6 0 1 .4 1 1 0 1.3.2 2.6.6 3.8.1.4 0 .8-.2 1.1L6.6 10.8Z" fill="currentColor"/></svg>
+          Call Now: (656) 556-2260
+        </a>
+      </div>
+
+      <div>
+        <form class="form-card" id="contactForm" novalidate>
+          <div class="form-row">
+            <div class="field">
+              <label for="fname">Full name</label>
+              <input type="text" id="fname" name="fname" required>
+            </div>
+            <div class="field">
+              <label for="email">Email address</label>
+              <input type="email" id="email" name="email" required>
+            </div>
+          </div>
+          <div class="form-row">
+            <div class="field">
+              <label for="phone">Phone (optional)</label>
+              <input type="tel" id="phone" name="phone">
+            </div>
+            <div class="field">
+              <label for="topic">Issue category</label>
+              <select id="topic" name="topic" required>
+                <option value="">Select one</option>
+                <option>Account access / login</option>
+                <option>Payment / transaction question</option>
+                <option>Security concern</option>
+                <option>Dispute / case navigation</option>
+                <option>Verification request</option>
+                <option>Other</option>
+              </select>
+            </div>
+          </div>
+          <div class="field">
+            <label for="message">Describe your issue</label>
+            <textarea id="message" name="message" required placeholder="What's happening, and what have you already tried?"></textarea>
+          </div>
+          <div class="field-check">
+            <input type="checkbox" id="consent" name="consent" required>
+            <label for="consent">I understand Rohan is an independent provider, not affiliated with PayPal, and will never be asked to share my PayPal password.</label>
+          </div>
+          <button type="submit" class="btn btn-brass btn-block">Submit Case Review Request</button>
+          <div class="form-msg" id="formMsg"></div>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ LEGAL ============ -->
+  <section class="legal" id="legal">
+    <div class="wrap">
+      <div class="legal-head">
+        <p class="eyebrow">Policies</p>
+        <h2>Privacy, terms, refunds &amp; disclaimer.</h2>
+      </div>
+      <div class="legal-tabs" id="legalTabs" role="tablist">
+        <button class="legal-tab active" data-tab="privacy">Privacy Policy</button>
+        <button class="legal-tab" data-tab="terms">Terms &amp; Conditions</button>
+        <button class="legal-tab" data-tab="refund">Refund Policy</button>
+        <button class="legal-tab" data-tab="disclaimer">Disclaimer</button>
+      </div>
+
+      <div class="legal-panel active" id="panel-privacy">
+        <span class="legal-updated">Last updated: August 2026</span>
+        <h3>1. Information we collect</h3>
+        <p>When you submit our contact form or email us, we collect the information you provide, such as your name, email address, phone number, and a description of your issue. We do not request, and ask that you never share, your PayPal password, security codes, or full financial account numbers.</p>
+        <h3>2. How we use information</h3>
+        <p>We use the information you provide solely to review your case, respond to your inquiry, and deliver the support you've requested. We do not sell your personal information to third parties.</p>
+        <h3>3. Data retention</h3>
+        <p>Case information is retained only as long as needed to provide support and meet recordkeeping obligations, after which it is deleted or anonymized.</p>
+        <h3>4. Your choices</h3>
+        <p>You may request access to, correction of, or deletion of your information at any time by contacting us at the email address listed in the Contact section.</p>
+        <h3>5. Cookies</h3>
+        <p>Our website may use minimal cookies for basic functionality and analytics. You can control cookies through your browser settings.</p>
+      </div>
+
+      <div class="legal-panel" id="panel-terms">
+        <span class="legal-updated">Last updated: August 2026</span>
+        <h3>1. Independent service</h3>
+        <p>Rohan is an independently owned and operated technical support provider. We are not affiliated with, endorsed by, sponsored by, or in any way officially connected with PayPal, Inc. Any references to PayPal are for descriptive purposes only, to identify the subject of the support we provide.</p>
+        <h3>2. Nature of services</h3>
+        <p>Our services consist of educational guidance, troubleshooting walkthroughs, and general information related to PayPal account processes. We do not have access to PayPal's internal systems and cannot make changes to your PayPal account.</p>
+        <h3>3. No guaranteed outcomes</h3>
+        <p>Because final decisions on individual accounts rest solely with PayPal, we cannot and do not guarantee any specific outcome, including account restoration, fund release, or dispute resolution.</p>
+        <h3>4. Customer responsibilities</h3>
+        <p>You agree never to share your PayPal password, one-time passcodes, or full card/bank numbers with us. You are responsible for verifying any account changes directly through PayPal's official channels.</p>
+        <h3>5. Acceptable use</h3>
+        <p>You agree to use our services lawfully and to provide accurate information when requesting support.</p>
+        <h3>6. Limitation of liability</h3>
+        <p>To the maximum extent permitted by law, Rohan is not liable for indirect, incidental, or consequential damages arising from use of our services or reliance on guidance provided.</p>
+        <h3>7. Changes to these terms</h3>
+        <p>We may update these terms from time to time. Continued use of our services after changes constitutes acceptance of the updated terms.</p>
+      </div>
+
+      <div class="legal-panel" id="panel-refund">
+        <span class="legal-updated">Last updated: August 2026</span>
+        <h3>1. Free initial review</h3>
+        <p>Every case begins with a free initial review, so you know what a paid session would involve before any charge occurs.</p>
+        <h3>2. Eligibility for refunds</h3>
+        <p>If you are not satisfied with a completed paid session, you may request a refund within 7 days by contacting us with your case reference number. Requests are reviewed on a case-by-case basis.</p>
+        <h3>3. Non-refundable circumstances</h3>
+        <p>Refunds are not available where the issue requires action only PayPal can take, where inaccurate information was provided to us, or where a session was already fully delivered as described.</p>
+        <h3>4. How refunds are processed</h3>
+        <p>Approved refunds are returned to the original payment method within 5–10 business days.</p>
+      </div>
+
+      <div class="legal-panel" id="panel-disclaimer">
+        <span class="legal-updated">Last updated: August 2026</span>
+        <h3>Independence disclaimer</h3>
+        <p>Rohan is a separate, independently owned company. We are not PayPal, and we are not affiliated with, endorsed by, sponsored by, or officially connected with PayPal, Inc. or any of its subsidiaries in any way. PayPal and any related marks are the property of their respective owners and are referenced here solely to describe the subject matter of our support services.</p>
+        <h3>No official access</h3>
+        <p>We do not have privileged or backend access to PayPal's systems. We cannot unlock, verify, or modify your PayPal account directly. All account-level decisions remain solely with PayPal.</p>
+        <h3>General information only</h3>
+        <p>Content on this site is provided for general informational and educational purposes and should not be treated as financial, legal, or professional advice specific to your situation.</p>
+        <h3>Security reminder</h3>
+        <p>We will never ask for your PayPal password, security codes, or remote access to your device. If anyone claiming to represent us asks for these, please do not provide them and contact us to report it.</p>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<!-- ============ FOOTER ============ -->
+<footer>
+  <div class="wrap">
+    <div class="foot-grid">
+      <div class="foot-brand">
+        <a href="#top" class="logo" style="color:var(--paper);">Rohan</a>
+        <p>Independent technical support for US customers navigating PayPal-related account questions. Not affiliated with PayPal, Inc.</p>
+      </div>
+      <div class="foot-col">
+        <h5>Company</h5>
+        <ul>
+          <li><a href="#about">About Us</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#why">Why Choose Us</a></li>
+          <li><a href="#how">How It Works</a></li>
+        </ul>
+      </div>
+      <div class="foot-col">
+        <h5>Support</h5>
+        <ul>
+          <li><a href="#faq">FAQ</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+      <div class="foot-col">
+        <h5>Policies</h5>
+        <ul>
+          <li><a href="#legal" data-jump="privacy">Privacy Policy</a></li>
+          <li><a href="#legal" data-jump="terms">Terms &amp; Conditions</a></li>
+          <li><a href="#legal" data-jump="refund">Refund Policy</a></li>
+          <li><a href="#legal" data-jump="disclaimer">Disclaimer</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="foot-disclaimer">
+      Rohan is an independent, third-party technical support provider. We are not affiliated with, endorsed by, sponsored by, or officially connected with PayPal, Inc. or any of its affiliates. "PayPal" is referenced solely to describe the subject matter of the support we provide. We never request PayPal passwords, security codes, or remote access, and we cannot guarantee outcomes on decisions that rest solely with PayPal.
+    </div>
+    <div class="foot-bottom">
+      <span>© 2026 Rohan. All rights reserved.</span>
+      <span>Made for US customers · Independent &amp; unaffiliated</span>
+    </div>
+  </div>
+</footer>
+
+<script>
+  // Keep body/scroll offset in sync with the fixed header's real height
+  // (phone line + disclaimer strip + nav can wrap to extra lines on narrow screens)
+  const siteHeader = document.getElementById('siteHeader');
+  function syncTopOffset(){
+    const h = siteHeader.offsetHeight;
+    document.documentElement.style.setProperty('--top-offset', h + 'px');
+  }
+  syncTopOffset();
+  window.addEventListener('load', syncTopOffset);
+  window.addEventListener('resize', syncTopOffset);
+  if (document.fonts && document.fonts.ready) {
+    document.fonts.ready.then(syncTopOffset);
+  }
+
+  // Mobile nav
+  const burger = document.getElementById('burgerBtn');
+  const navLinks = document.getElementById('navLinks');
+  burger.addEventListener('click', () => {
+    const open = navLinks.classList.toggle('open');
+    burger.setAttribute('aria-expanded', open);
+  });
+  navLinks.querySelectorAll('a').forEach(a => a.addEventListener('click', () => {
+    navLinks.classList.remove('open');
+    burger.setAttribute('aria-expanded', 'false');
+  }));
+
+  // FAQ accordion
+  document.querySelectorAll('.faq-item').forEach(item => {
+    const btn = item.querySelector('.faq-q');
+    const answer = item.querySelector('.faq-a');
+    btn.addEventListener('click', () => {
+      const isOpen = item.classList.contains('open');
+      document.querySelectorAll('.faq-item.open').forEach(other => {
+        if (other !== item) {
+          other.classList.remove('open');
+          other.querySelector('.faq-a').style.maxHeight = null;
+          other.querySelector('.faq-q').setAttribute('aria-expanded', 'false');
+        }
+      });
+      if (isOpen) {
+        item.classList.remove('open');
+        answer.style.maxHeight = null;
+        btn.setAttribute('aria-expanded', 'false');
+      } else {
+        item.classList.add('open');
+        answer.style.maxHeight = answer.scrollHeight + 'px';
+        btn.setAttribute('aria-expanded', 'true');
+      }
+    });
+  });
+
+  // Legal tabs
+  const tabs = document.querySelectorAll('.legal-tab');
+  function activateTab(name){
+    tabs.forEach(t => t.classList.toggle('active', t.dataset.tab === name));
+    document.querySelectorAll('.legal-panel').forEach(p => {
+      p.classList.toggle('active', p.id === 'panel-' + name);
+    });
+  }
+  tabs.forEach(tab => tab.addEventListener('click', () => activateTab(tab.dataset.tab)));
+
+  document.querySelectorAll('[data-jump]').forEach(link => {
+    link.addEventListener('click', () => {
+      activateTab(link.dataset.jump);
+    });
+  });
+
+  // Contact form (client-side demo — connect to your backend or form service)
+  const form = document.getElementById('contactForm');
+  const formMsg = document.getElementById('formMsg');
+  form.addEventListener('submit', function(e){
+    e.preventDefault();
+    if (!form.checkValidity()) {
+      form.reportValidity();
+      return;
+    }
+    formMsg.textContent = 'Thanks — your case review request has been received. We\'ll reply by email within one business day.';
+    formMsg.className = 'form-msg show success';
+    form.reset();
+  });
+</script>
+
+</body>
+</html>
